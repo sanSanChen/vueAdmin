@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none
+}
+body{
+	font-size: 12px;
+}
+a,a:hover,a:active,a:visited,a:link,a:focus{/*去除a标签背景色*/
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    background: none;
+    text-decoration: none;
+}
+
+.el-input .el-select .el-input{/*el-select组件在el-input组件下作为复合框存在时input宽度为0 临时改动而已*/
+    width: 110px;
+}
+
