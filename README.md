@@ -30,5 +30,3 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 4.可以开始写组件了♪(^∇^*)~<br>
 
 5.el-select 组件在el-input下用来组件复合输入框时会导致其内部input元素宽度为0(只有padding)，已选项显示不出来，.el-input .el-select .el-input{width:...自己设置} 官网上例子也是设置有width：110px(一开始没看到，耽误事(T_T));<br>
-
-6. 
