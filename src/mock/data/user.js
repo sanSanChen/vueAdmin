@@ -5,7 +5,7 @@ const LoginUsers = [
     id:1,
     username: 'admin',
     password: '123456',
-    avatar: 'https://avatars2.githubusercontent.com/u/17826380?v=4&s=40',
+    avatar: require('../../../static/img/header.gif'),
     name: '陈某人'
   }
 ];
